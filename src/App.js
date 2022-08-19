@@ -1,25 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import jquery from 'jquery';
+
+
+import ServiceDetailsPage from "./pages/ServiceDetailsPage";
+import useScript from "./common/hooks/useScript";
+import HomePage from "./pages/HomePage";
+
+window.$ = window.jQuery = jquery;
+
+const App = () => {
+
+    useScript('assets/js/bootstrap.bundle.min.js');
+    useScript('assets/js/slick.min.js');
+    useScript('assets/js/jquery.magnific-popup.min.js');
+    useScript('assets/js/isotope.pkgd.min.js');
+    useScript('assets/js/imagesloaded.pkgd.min.js');
+    useScript('assets/js/jquery.inview.min.js');
+    useScript('assets/js/jquery.easypiechart.min.js');
+    useScript('assets/js/jquery.syotimer.min.js');
+    useScript('assets/js/wow.min.js');
+    useScript('assets/js/main.js');
+
+    return (
+        <HomePage/>
+    );
 }
 
 export default App;
