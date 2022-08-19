@@ -531,7 +531,7 @@
 		});
 	}
 
-	//===== 15. Sticky Header
+	//===== 15. Sticky HomeHeader
 	function stickyHeader() {
 		var sticky = $('header.sticky-header');
 		var scrollFromtop = $(window).scrollTop();

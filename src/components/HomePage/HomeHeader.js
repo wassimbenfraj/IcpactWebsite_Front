@@ -1,4 +1,4 @@
-const Header = () => {
+const HomeHeader = () => {
 
     return (
         <header className="header-four header-full-width sticky-header">
@@ -38,4 +38,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default HomeHeader;

@@ -4,7 +4,7 @@
 	CSS INDEX
 	===================
     01. Common
-    02. Header
+    02. HomeHeader
     03. Banner
     04. Service
     05. Feature
@@ -1318,7 +1318,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 		transform: scale(0);
 	}
 }
-/*=======  Header  =======*/
+/*=======  HomeHeader  =======*/
 .header-topbar {
 	border-bottom: 2px solid #ebebeb;
 	padding: 15px 0;

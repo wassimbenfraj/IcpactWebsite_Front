@@ -1,5 +1,5 @@
 import Preloader from "../common/components/Preloader";
-import Header from "../components/HomePage/Header";
+import HomeHeader from "../components/HomePage/HomeHeader";
 import Banner from "../components/HomePage/Banner";
 import About from "../components/HomePage/About";
 import ServicesList from "../components/HomePage/Services/ServicesList";
@@ -9,6 +9,7 @@ import TestimonialsList from "../components/HomePage/testimonials/testimonialsLi
 import TeamsList from "../components/HomePage/teams/TeamsList";
 import Contact from "../components/HomePage/contact/Contact";
 import Footer from "../common/components/Footer";
+import BackToTop from "../common/components/BackToTop";
 
 
 const HomePage = () => {
@@ -17,7 +18,7 @@ const HomePage = () => {
     return (
         <div>
             <Preloader/>
-            <Header/>
+            <HomeHeader/>
             <Banner/>
 
             <About/>
@@ -30,11 +31,7 @@ const HomePage = () => {
             <TeamsList/>
 
             <Contact/>
-            <div className="back-to-top">
-                <a href="#"> <i className="fas fa-arrow-up"></i> </a>
-            </div>
-
-
+            <BackToTop/>
             <Footer/>
         </div>
 

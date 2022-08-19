@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 
 import jquery from 'jquery';
 
 
-import ServiceDetailsPage from "./pages/ServiceDetailsPage";
 import useScript from "./common/hooks/useScript";
-import HomePage from "./pages/HomePage";
+import CoachingPage from "./pages/CoachingPage";
 
 window.$ = window.jQuery = jquery;
 
@@ -24,7 +22,7 @@ const App = () => {
     useScript('assets/js/main.js');
 
     return (
-        <HomePage/>
+        <CoachingPage/>
     );
 }
 
