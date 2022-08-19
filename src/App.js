@@ -5,6 +5,7 @@ import jquery from 'jquery';
 
 import useScript from "./common/hooks/useScript";
 import CoachingPage from "./pages/CoachingPage";
+import ItDevelopmentPage from "./pages/ItDevelopmentPage";
 
 window.$ = window.jQuery = jquery;
 
@@ -22,7 +23,7 @@ const App = () => {
     useScript('assets/js/main.js');
 
     return (
-        <CoachingPage/>
+        <ItDevelopmentPage/>
     );
 }
 
