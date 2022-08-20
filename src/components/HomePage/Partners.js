@@ -25,7 +25,7 @@ const Partners = () => {
     };
 
     return (
-        <section className="about-section" id="contact">
+        <section className="about-section" >
             <div className="container">
                 <div className="col-lg-6 col-md-10 order-lg-1">
                     <div className="section-title mb-50 wow fadeInUp" data-wow-delay="0.3s">
