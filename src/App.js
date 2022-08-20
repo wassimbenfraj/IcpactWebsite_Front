@@ -31,6 +31,8 @@ const App = () => {
     useScript('assets/js/jquery.syotimer.min.js');
     useScript('assets/js/wow.min.js');
     useScript('assets/js/main.js');
+    useScript('assets/js/jquery-1.12.4.min.js');
+
 
     return (
         <BrowserRouter>
