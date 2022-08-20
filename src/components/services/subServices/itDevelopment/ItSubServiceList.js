@@ -1,4 +1,3 @@
-import SubServiceItem from "../SubServiceItem";
 import ItSubServiceItem from "./ItSubServiceItem";
 
 const ItSubServiceList = props => {

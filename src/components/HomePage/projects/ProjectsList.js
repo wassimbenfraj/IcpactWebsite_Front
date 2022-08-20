@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 const ProjectsList = () => {
 
     return (
@@ -52,11 +54,11 @@ const ProjectsList = () => {
                             </div>
                         </div>
                     </div>
-                    <a data-animation="fadeInUp" data-delay="1.1s"
-                       className="main-btn rounded-btn icon-right small-size" href=""
+                    <Link data-animation="fadeInUp" data-delay="1.1s"
+                       className="main-btn rounded-btn icon-right small-size" to={"projects"}
                        style={{marginTop: "5%"}}>
                         Our Projects <i className="fal fa-long-arrow-right"></i>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>
