@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 const ServiceItem = props => {
 
     return (
@@ -8,9 +10,9 @@ const ServiceItem = props => {
                 </div>
                 <h4 className="title" style={{fontSize: "2em"}}>{props.title}</h4>
                 <p>{props.description}</p>
-                <a href="services-details.html" className="service-link"><i
-                    className="fal fa-angle-right"></i> Read
-                    More</a>
+                <Link to={`services/${props.title.replace(/\s/g, '')}`} className="service-link"><i
+                    className="fal fa-angle-right"></i> Explore
+                    More</Link>
                 <span className="count">01</span>
             </div>
         </div>

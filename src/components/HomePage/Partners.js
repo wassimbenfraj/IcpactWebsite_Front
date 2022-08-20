@@ -23,31 +23,31 @@ const Partners = () => {
                 <section className="customer-logos slider" style={{marginBottom: "5%"}}>
                     <Slider {...settings}>
 
-                        <div className="slide"><img height="100px" src="assets/img/sidebar/ITeam.cf742183.jpg"/>
+                        <div className="slide"><img height="100px" src={"./assets/img/sidebar/ITeam.cf742183.jpg"}/>
                         </div>
-                        <div className="slide"><img height="100px" src="assets/img/sidebar/ihet.78938c3f.png"/>
+                        <div className="slide"><img height="100px" src={"./assets/img/sidebar/ihet.78938c3f.png"}/>
                         </div>
-                        <div className="slide"><img height="100px" src="assets/img/sidebar/UOttawa.56c7ff0d.png"/>
-                        </div>
-                        <div className="slide"><img height="100px"
-                                                    src="assets/img/sidebar/universidade-de-brasilia-logo.36f4d495.png"/>
+                        <div className="slide"><img height="100px" src={"./assets/img/sidebar/UOttawa.56c7ff0d.png"}/>
                         </div>
                         <div className="slide"><img height="100px"
-                                                    src="assets/img/sidebar/tek_up_logo.d853ef1a.jpg"/>
+                                                    src={"./assets/img/sidebar/universidade-de-brasilia-logo.36f4d495.png"}/>
                         </div>
-                        <div className="slide"><img height="100px" src="assets/img/sidebar/MP2.c6ad4e97.png"/></div>
-                        <div className="slide"><img height="100px" src="assets/img/sidebar/CD2.cbd85af7.png"/></div>
-                        <div className="slide"><img height="100px" src="assets/img/sidebar/tunivision.png"/></div>
-                        <div className="slide"><img height="100px" src="assets/img/sidebar/gat.png"/></div>
-                        <div className="slide"><img height="100px" src="assets/img/sidebar/rotary.png"/></div>
-                        <div className="slide"><img height="100px" src="assets/img/sidebar/rotaract.659d7fbe.png"/>
+                        <div className="slide"><img height="100px"
+                                                    src={"./assets/img/sidebar/tek_up_logo.d853ef1a.jpg"}/>
                         </div>
-                        <div className="slide"><img height="100px" src="assets/img/sidebar/nextSlide.694bb42e.png"/>
+                        <div className="slide"><img height="100px" src={"./assets/img/sidebar/MP2.c6ad4e97.png"}/></div>
+                        <div className="slide"><img height="100px" src={"./assets/img/sidebar/CD2.cbd85af7.png"}/></div>
+                        <div className="slide"><img height="100px" src={"./assets/img/sidebar/tunivision.png"}/></div>
+                        <div className="slide"><img height="100px" src={"./assets/img/sidebar/gat.png"}/></div>
+                        <div className="slide"><img height="100px" src={"./assets/img/sidebar/rotary.png"}/></div>
+                        <div className="slide"><img height="100px" src={"./assets/img/sidebar/rotaract.659d7fbe.png"}/>
                         </div>
-                        <div className="slide"><img height="100px" src="assets/img/sidebar/JET.25b1c94c.png"/></div>
-                        <div className="slide"><img height="100px" src="assets/img/sidebar/interact.10a71253.png"/>
+                        <div className="slide"><img height="100px" src={"./assets/img/sidebar/nextSlide.694bb42e.png"}/>
                         </div>
-                        <div className="slide"><img height="100px" src="assets/img/sidebar/IOM.992aa495.png"/></div>
+                        <div className="slide"><img height="100px" src={"./assets/img/sidebar/JET.25b1c94c.png"}/></div>
+                        <div className="slide"><img height="100px" src={"./assets/img/sidebar/interact.10a71253.png"}/>
+                        </div>
+                        <div className="slide"><img height="100px" src={"./assets/img/sidebar/IOM.992aa495.png"}/></div>
                     </Slider>
 
                 </section>

@@ -15,8 +15,8 @@ const Banner = () => {
                 </div>
             </div>
             <div className="banner-shapes">
-                <img className="shape-one" src="assets/img/banner/banner-shape-1.png" alt=""/>
-                <img className="shape-two" src="assets/img/banner/banner-shape-2.png" alt=""/>
+                <img className="shape-one" src={"./assets/img/banner/banner-shape-1.png"} alt=""/>
+                <img className="shape-two" src={"./assets/img/banner/banner-shape-2.png"} alt=""/>
             </div>
 
         </section>

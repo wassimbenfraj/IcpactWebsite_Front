@@ -5,7 +5,7 @@ const ServicePageTitle = props => {
             <div className="container">
                 <h2 className="title">{props.title}</h2>
                 <ul className="breadcrumb-nav">
-                    <li><a href="index-2.html">Home</a></li>
+                    <li><a href="">Home</a></li>
                     <li className="active">About</li>
                 </ul>
             </div>

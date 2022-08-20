@@ -7,7 +7,7 @@ const Footer = () => {
                     <div className="col-lg-4 col-md-6 col-md-7">
                         <div className="widget about-widget">
                             <div className="logo">
-                                <img src="assets/img/ipact.png" width="150" alt=""/>
+                                <img src={"./assets/img/ipact.png"} width="150" alt=""/>
                             </div>
                             <p>The web has changed a lot since Vitaly posted his first article back in 2006. The
                                 team at

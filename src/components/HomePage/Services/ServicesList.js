@@ -16,7 +16,7 @@ const ServicesList = () => {
         },
         {
             id: 2,
-            title: "Consulting",
+            title: "consulting",
             description: "We provide consulting services focused on clients challenges and\n" +
                 "                                    opportunities: strategy,\n" +
                 "                                    marketing, organisation, operations, technology, transformation, digital,\n" +

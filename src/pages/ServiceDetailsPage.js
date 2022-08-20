@@ -16,7 +16,7 @@ const ServiceDetailsPage = () => {
                     <div className="container-fluid d-flex align-items-center justify-content-between">
                         <div className="header-left">
                             <div className="site-logo">
-                                <a href="index-2.html"><img src="assets/img/ipact2.png" width="150" alt="Omnivus"/></a>
+                                <a href="index-2.html"><img src="assets/img/ipact2.png" width="150" alt="Ipact"/></a>
                             </div>
                         </div>
                         <div className="site-nav-menu">

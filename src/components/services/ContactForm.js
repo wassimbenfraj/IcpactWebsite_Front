@@ -2,7 +2,7 @@ const ContactForm = props => {
 
     return (
         <section className="conatct-section-two section-gap"
-                 style={{backgroundImage: "url(assets/img/contact-bg-2.jpg)"}}>
+                 style={{backgroundImage: "url('assets/img/contact-bg-2.jpg')"}}>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-xl-6 col-lg-7">
@@ -13,7 +13,7 @@ const ContactForm = props => {
                     </div>
                     <div className="col-12">
                         <div className="contact-form">
-                            <form action="src/components/services/ContactForm#">
+                            <form action="">
                                 <div className="row">
                                     <div className="col-md-6">
                                         <div className="input-group mt-30">

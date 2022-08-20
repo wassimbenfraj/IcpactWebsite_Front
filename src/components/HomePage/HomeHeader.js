@@ -6,9 +6,9 @@ const HomeHeader = () => {
                 <div className="container-fluid d-flex align-items-center justify-content-between">
                     <div className="header-left">
                         <div className="site-logo">
-                            <a href="index-2.html">
-                                <img src="assets/img/ipact.png" width="150" alt="IPACT" className="main-logo"/>
-                                <img src="assets/img/ipact2.png" width="150" alt="IPACT"
+                            <a href="">
+                                <img src={"./assets/img/ipact.png"} width="150" alt="IPACT" className="main-logo"/>
+                                <img src={"./assets/img/ipact2.png"} width="150" alt="IPACT"
                                      className="sticky-logo"/>
                             </a>
                         </div>

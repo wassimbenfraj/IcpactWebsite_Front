@@ -15,7 +15,7 @@ const ProjectsList = () => {
                 <div className="portfolio-items justify-content-center row">
                     <div className="col-lg-4 col-md-6 col-sm-10 wow fadeInUp" data-wow-delay="0.3s">
                         <div className="portfolio-item-two mt-30">
-                            <img src="assets/img/gemini.png" alt="Image"/>
+                            <img src={"./assets/img/gemini.png"} alt="Image"/>
                             <div className="portfolio-content">
 
                                 <h5 className="title"><a href="#">Project Members</a></h5>
@@ -28,7 +28,7 @@ const ProjectsList = () => {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-10 wow fadeInUp" data-wow-delay="0.3s">
                         <div className="portfolio-item-two mt-30">
-                            <img src="assets/img/gemini.png" alt="Image"/>
+                            <img src={"./assets/img/gemini.png"} alt="Image"/>
                             <div className="portfolio-content">
 
                                 <h5 className="title"><a href="#">Project Members</a></h5>
@@ -41,7 +41,7 @@ const ProjectsList = () => {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-10 wow fadeInUp" data-wow-delay="0.3s">
                         <div className="portfolio-item-two mt-30">
-                            <img src="assets/img/gemini.png" alt="Image"/>
+                            <img src={"./assets/img/gemini.png"} alt="Image"/>
                             <div className="portfolio-content">
 
                                 <h5 className="title"><a href="#">Project Members</a></h5>
@@ -53,7 +53,7 @@ const ProjectsList = () => {
                         </div>
                     </div>
                     <a data-animation="fadeInUp" data-delay="1.1s"
-                       className="main-btn rounded-btn icon-right small-size" href="services.html"
+                       className="main-btn rounded-btn icon-right small-size" href=""
                        style={{marginTop: "5%"}}>
                         Our Projects <i className="fal fa-long-arrow-right"></i>
                     </a>

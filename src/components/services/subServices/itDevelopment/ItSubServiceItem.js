@@ -10,7 +10,7 @@ const ItSubServiceItem = props => {
                 <p>{props.description}</p>
             </div>
             <div className="number-box">
-                <span>01</span>
+                <span>{props.index+1}</span>
             </div>
         </div>
 

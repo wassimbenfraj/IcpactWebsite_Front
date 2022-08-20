@@ -12,8 +12,8 @@ const SubServicesList = props => {
                     <div className="col-lg-6 col-md-9">
                         <div className="intro-video-with-shape mb-md-gap-60">
                             <img
-                                src="assets/img/about-intro-thumb.jpg" alt="Image"/>
-                            <a href="src/components/services/subServices/SubServicesList#" className="video-popup"><i className="fas fa-play"></i></a>
+                                src={"./assets/img/about-intro-thumb.jpg"} alt="Image"/>
+                            <a href="" className="video-popup"><i className="fas fa-play"></i></a>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-10">

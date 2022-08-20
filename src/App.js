@@ -1,11 +1,20 @@
 import './App.css';
+import {
+    BrowserRouter,
+    Routes,
+    Route,
+} from "react-router-dom"
 
 import jquery from 'jquery';
 
 
 import useScript from "./common/hooks/useScript";
+import HomePage from "./pages/HomePage";
+import ConsultingPage from "./pages/ConsultingPage";
+import ScrollToTop from "./common/helpers/ScrollToTop";
 import CoachingPage from "./pages/CoachingPage";
 import ItDevelopmentPage from "./pages/ItDevelopmentPage";
+
 
 window.$ = window.jQuery = jquery;
 
@@ -23,7 +32,15 @@ const App = () => {
     useScript('assets/js/main.js');
 
     return (
-        <ItDevelopmentPage/>
+        <BrowserRouter>
+            <ScrollToTop/>
+            <Routes>
+                    <Route exact path="services/consulting" element={<ConsultingPage/>}/>
+                    <Route exact path="services/coaching" element={<CoachingPage/>}/>
+                    <Route exact path="services/ItDevelopment" element={<ItDevelopmentPage/>}/>
+                    <Route path="/" element={<HomePage/>}/>
+            </Routes>
+        </BrowserRouter>
     );
 }
 

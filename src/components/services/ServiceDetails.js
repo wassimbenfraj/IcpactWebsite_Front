@@ -7,10 +7,10 @@ const ServiceDetails = props => {
                     <div className="col-lg-6 col-md-10">
                         <div className="services-details-imgs mb-md-gap-50">
                             <div className="img-one">
-                                <img src="assets/img/service-img/services-op-1.jpg" alt="img"/>
+                                <img src={"./assets/img/service-img/services-op-1.jpg"} alt="img"/>
                             </div>
                             <div className="img-two text-right">
-                                <img src="assets/img/service-img/services-op-2.jpg" alt="img"/>
+                                <img src={"./assets/img/service-img/services-op-2.jpg"} alt="img"/>
                             </div>
                         </div>
                     </div>

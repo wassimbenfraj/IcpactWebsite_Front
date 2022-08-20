@@ -4,7 +4,7 @@ const SubServiceItem = props => {
         (
             <>
                 <div className="card-header" id="headingOne-2">
-                    <a className="" href="src/components/services/subServices/SubServicesList#" data-toggle="collapse"
+                    <a className="" href="#" data-toggle="collapse"
                        data-target={`#collapse${props.index}`}
                        aria-expanded="true" aria-controls={`collapse${props.index}`}> <i
                         className="fal fa-magic"></i>{props.title}</a>
